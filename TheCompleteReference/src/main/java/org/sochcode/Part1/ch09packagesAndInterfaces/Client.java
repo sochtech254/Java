@@ -1,0 +1,17 @@
+package org.sochcode.Part1.ch09packagesAndInterfaces;
+
+class Client implements Callback
+{
+    // Implement Callback's interface
+
+    @Override
+    public void callback(int p)
+    {
+        System.out.println("callback called with " + p);
+    }
+
+    void nonIfaceMeth()
+    {
+        System.out.println("Classes that implement interfaces " + "may also define other members, too.");
+    }
+}

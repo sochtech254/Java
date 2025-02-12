@@ -1,0 +1,17 @@
+package org.sochcode.Part2.ch31regularExpressionsAndOtherPackages;
+
+// Use a reluctant quantifier.
+import java.util.regex.*;
+
+class WildcardAndReluctantQuantifier
+{
+    public static void main(String[] args)
+    {
+        // Use reluctant matching behavior.
+        Pattern pat = Pattern.compile("e.+?d");
+        Matcher mat = pat.matcher("extend cup end table");
+
+        while (mat.find())
+            System.out.println("Match: " + mat.group());
+    }
+}

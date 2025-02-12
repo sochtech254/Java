@@ -1,0 +1,13 @@
+package org.sochcode.Part1.ch07aCloserLookAtMethodsAndClasses;
+
+// Demonstrate String arrays
+class StringArrays
+{
+    public static void main(String[] args)
+    {
+        String[] str = {"one", "two", "three"};
+
+        for (int i = 0; i < str.length; i++)
+            System.out.println("str[" + i + "]: " + str[i]);
+    }
+}
