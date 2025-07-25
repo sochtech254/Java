@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UdemyTimBuchalka:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UdemyTimBuchalka_jar</output-path>
+    <root id="archive" name="UdemyTimBuchalka.jar">
+      <element id="module-output" name="UdemyTimBuchalka" />
+    </root>
+  </artifact>
+</component>
