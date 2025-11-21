@@ -1,14 +1,20 @@
 package org.sochcode.freecodecampdaneshviryani.dsalgo.arrays;
 
-public class AddOrUpdateArrayElements
+public class  AddOrUpdateArrayElements
 {
     public void printArray(int[] arr)
     {
-        int n = arr.length;
         for (int j : arr) {
             System.out.print(j + " ");
         }
         System.out.println();
+
+//       another way of coding the above functionality:
+//        int n = arr.length;
+//        for (int i = 1; i <= n; i++) {
+//            System.out.print(arr[i] + " ");
+//        }
+//        System.out.println();
     }
 
     public void arrayDemo()

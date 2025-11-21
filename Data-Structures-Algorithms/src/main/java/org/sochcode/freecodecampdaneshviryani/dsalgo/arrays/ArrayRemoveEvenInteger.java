@@ -4,7 +4,6 @@ public class ArrayRemoveEvenInteger
 {
     public static void printArray(int[] arr)
     {
-        int n = arr.length;
         for (int j : arr) {
             System.out.print(j + " ");
         }
@@ -27,7 +26,6 @@ public class ArrayRemoveEvenInteger
                 idx++;
             }
         }
-
         return result;
     }
 
@@ -37,6 +35,5 @@ public class ArrayRemoveEvenInteger
         printArray(arr);
         int[] result = removeEven(arr);
         printArray(result);
-
     }
 }

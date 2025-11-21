@@ -4,7 +4,6 @@ public class PrintArrayMethod
 {
     void printArray(int[] arr)
     {
-        int n = arr.length;
         for (int j : arr) {
             System.out.print(j + " ");
         }
