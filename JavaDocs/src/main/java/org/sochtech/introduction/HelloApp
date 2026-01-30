@@ -1,0 +1,10 @@
+#!/usr/bin/java --source 25
+
+// Executing java file as shebang file 
+
+public class HelloApp {
+    static void main() {
+        System.out.println("Hello Java App!");
+        System.out.println("OpenJDK version: " + Runtime.version());
+    }
+}
